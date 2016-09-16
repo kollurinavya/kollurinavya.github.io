@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Form</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href = "css/signIn.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container centered">
+	<h2 class="heading">Enter Query To Search</h2>
+		<form id ="duck_form" onSubmit="func()" > 
+			 <input type ="text" id="Name" name="q" class="form-control" required autofocus/><br>			 
+			 <input type="submit"  class="btn btn-lg btn-primary" value="Submit"/>			
+		</form>
+	</div>
+<script>
+function func(){
+	var query = document.getElementsByName("q").value;
+	var action_src = "https://duckduckgo.com/?q=" + query;
+    var duck_form = document.getElementById('duck_form');
+    duck_form.action = action_src ;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Birthday Card!!</title>
+		
+	<link rel="stylesheet" type="text/css" href="css/birthday_style.css">
+	</head>
+	<body onload="fun()">
+	  <h1>Happy Birthday<br> <label id = "n"></label> </h1>
+
+	     <img src ="ballons.png" alt ="ballon image">
+	   <div class= "container">
+		<div id = "RblueRect"></div>
+		<div id = "RRedRect"></div>
+		<div id = "RGreenRect"></div>
+		<div id = "RGrayRect"></div>
+		<div id = "RblueRect1"></div>
+		<div id = "RRedRect1"></div>
+	  </div>
+	    <div id = "blueRect"></div>
+		<div id = "redRect"></div>
+		<div id = "greenRect"></div>
+		<div id = "grayRect"></div>
+	    <div id = "blueRect1"></div>
+		<div id = "redRect1"></div>
+		
+	<script>
+
+function fun(){
+	var name=location.href.split('=')[1].split('+'); 
+	document.getElementById("n").textContent = name+ " !";
+}
+</script>
+		
+	</body>
+</html>

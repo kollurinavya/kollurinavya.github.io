@@ -1,0 +1,29 @@
+.form-submit {
+  max-width: 1000px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+body {
+  padding-top: 300px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  background-image : url("backgroundImg.jpg");
+}
+
+.form-submit .heading {
+  margin-bottom: 10px;
+}
+
+.form-submit .form-control {
+  position: relative;
+  max-width: 1000px;
+  height: auto;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+.centered{
+	 text-align: center;
+}

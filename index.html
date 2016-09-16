@@ -1,17 +1,19 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Assignment2</title>
-  </head> 
-  <body>
-   <h1> Assignments</h1>
-   <ol>
-     <li><a href="http://vkoppisetty1.site88.net/assign1_web.html">Assignment1</a></li>
-   <li>Assignment2
-     <ul><li><a href="new2.html">Birthday Greeting Card</a></li></ul>
-     <ul><li><a href="duckduckgo.html">DuckDuckGo Search</a></li></ul>
-    </li>
-   </ol>
-  </body>
-</html>  
+<head>
+	
+	<title>Form</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href = "css/signIn.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container centered">
+	<h2 class="heading">Please enter the name of the person you would like to wish</h2>
+		<form action ="birthdayCard.html" method="get" > 
+			 <input type ="text" id="Name" name ="Name" class="form-control" required autofocus/><br>			 
+			 <input type="submit" onclick="form_submit()" class="btn btn-lg btn-primary" value="Submit"/>			
+		</form>
+	</div>
+
+</body>
+</html>
